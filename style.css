@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ROBOTO";
+}
+
+.top {
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  /* font-weight: bold; */
+  padding: 20px;
+}
+
+.menu1 {
+  display: flex;
+  gap: 20px;
+}
+
+.menu2 {
+  display: flex;
+  gap: 20px;
+}
+
+.menu1 > a {
+  text-decoration: none;
+  color: white;
+  gap: 40px;
+}
+
+.menu2 > a {
+  text-decoration: none;
+  color: white;
+  gap: 20px;
+}
+
+.offer {
+  background-color: rgb(134, 134, 225);
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.offer > p {
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  margin-top: 15px;
+  background-color: rgb(241, 241, 209);
+  padding-left: 50px;
+  /* padding-top: 50px; */
+  height: 500px;
+  display: flex;
+}
+
+.btnClass {
+  margin-top: 10px;
+  /* border: 1px solid black; */
+  width: 50%;
+}
+
+.btnClass > h2 {
+  margin-top: 50px;
+}
+
+.btnClass > button {
+  margin-top: 10px;
+  padding: 15px;
+  height: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.image {
+  width: 50%;
+}
+
+.image > img {
+  width: 100%;
+  height: 550px;
+  /* border: 1px solid black; */
+}
+
+.playbook {
+  margin-top: 70px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 400px);
+  gap: 10px;
+  text-align: center;
+}
+
+.card > img {
+  width: 100%;
+  height: 400px;
+}
+
+.card > button {
+  margin-top: 10px;
+  padding: 15px;
+  height: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.styl {
+  margin-top: 70px;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.card-container2{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 400px);
+    gap: 10px;
+    text-align: center;
+}
+
+
+.card2 > img {
+    width: 100%;
+}
+
+.classic{
+    margin-top: 90px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-container3{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 400px);
+    gap: 10px;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 80px;
+}
+
+input{
+    border: none;
+    outline: none;
+    height: 25px;
+}
